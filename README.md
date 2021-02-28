@@ -15,9 +15,14 @@ The purpose of this project is to perform an analysis and visualizations on the 
 There are a few steps to perform an analysis of outcomes based on launch date.
 
 First, the "Category and Subcategory" column is separated into 2 columns, the Parent Category and Subcategory columns are created by using the Text to Column function with 3 steps.
+
 Step 1:
 ![Text_to_Column_Step_1](Other_Screenshots/Text_to_Column_Step_1.PNG)
+
+Step 2:
 ![Text_to_Column_Step_2](Other_Screenshots/Text_to_Column_Step_2.PNG)
+
+Step 3:
 ![Text_to_Column_Step_3](Other_Screenshots/Text_to_Column_Step_3.PNG)
 
 The result is shown below:
