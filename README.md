@@ -57,31 +57,25 @@ There were no specific challenges and difficulties encountered when performing t
 
 ### Conclusions about the Outcomes based on Launch Date
 
-- What are two conclusions you can draw about the Outcomes based on Launch Date?
-
-By looking at the line graph of Theater Outcomes by Launch Date, which combines data from all the years, two conclusions can be drawn. First, at any given month, there are more successful outcomes than failed outcomes. Second, over the years, there has been an upward trend of successful outcomes for the first 5 months, followed by a downward trend of successful outcomes for the next 7 months. However, there is no significant trend for the failed outcomes.
+By looking at the line graph of Theater Outcomes by Launch Date, which combines data from all the years, two conclusions can be drawn. 
+First, at any given month, there are more successful outcomes than failed outcomes. 
+Second, over the years, there has been an upward trend of successful outcomes for the first 5 months, followed by a downward trend of successful outcomes for the next 7 months. However, there is no significant trend for the failed outcomes.
 
 ![Theater_Outcomes_vs_Launch](Resources/Theater_Outcomes_vs_Launch.png)
 
 ### Conclusions about the Outcomes based on Goals
 
-- What can you conclude about the Outcomes based on Goals?
-
 By looking at the line graph of Outcomes Based on Goals, it is obvious that there is no canceled outcomes for any goal. Overall there is a downward trend where the higher amount the goal is, the less percentage of successful outcomes. On the other hand, there is an upward trend where the higher amount the goal is, the higher percentage of failed outcomes.
 
-![Outcomes_vs_Goals](Resources/Outcomes_vs_Goal.png)
+![Outcomes_vs_Goals](Resources/Outcomes_vs_Goals.png)
 
 ### Limitations of this dataset
-
-- What are some limitations of this dataset?
 
 There are some limitations of this dataset which may affect its effectiveness and representation. It has a relatively small percentage of data for the category "theater" gathered from 2009 to 2013, as well as 2017. Since data for the category are mostly concentrated between 2014 and 2016, it may be biased or skewed, affecting the overall accuracy of the analysis.
 
 Moreover, by switching the country filter in the "Outcome based on Goals" chart, it is shown that most of the data gathered are from the "US". Since most of the data source are from one country, it may be demographically biased, thus affecting the accuracy of the analysis. The analysis will only be credible if Louise's play will be played in the US as she did not specify in which country her play is going to be played.
 
 ### Additional tables and graphs
-
-- What are some other possible tables and/or graphs that we could create?
 
 There are two possible tables and graphs that we could create to better analyze the situation. 
 First, a "Backers on Plays" line graph demonstrates the actual number of backers over the years on the plays subcategory. It shows that there has been a spike in number of backers on plays between 2014 and 2016.
