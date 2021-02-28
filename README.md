@@ -14,26 +14,27 @@ The purpose of this project is to perform an analysis and visualizations on the 
 
 There are a few steps to perform an analysis of outcomes based on launch date.
 
-First, the "Category and Subcategory" column is separated into 2 columns, the Parent Category and Subcategory columns are created by using the Text to Column function with 3 steps.
-Step 1:
-![Text_to_Column](Other_Screenshots/Text to Column.PNG)
-![Text_to_Column_Step_1](Other_Screenshots/Text_to_Column_Step_1.PNG)
-![Text_to_Column_Step_2](Other_Screenshots/Text_to_Column_Step_2.PNG)
-![Text_to_Column_Step_3](Other_Screenshots/Text_to_Column_Step_3.PNG)
+--- First, the "Category and Subcategory" column is separated into 2 columns, the Parent Category and Subcategory columns are created by using the Text to Column function with 3 steps.
 
-After that, the Date_Created_Conversion and Date_Ended_Conversion are created by converting the "launched_at" and "deadline" column using a formula shown below.
-![Date_Created_Conversion](Other_Screenshots/Date_Created_Conversion.PNG)
-![Date_Ended_Conversion](Other_Screenshots/Date_Ended_Conversion.PNG)
+--- Step 1:
+--- ![Text_to_Column](Other_Screenshots/Text to Column.PNG)
+--- ![Text_to_Column_Step_1](Other_Screenshots/Text_to_Column_Step_1.PNG)
+--- ![Text_to_Column_Step_2](Other_Screenshots/Text_to_Column_Step_2.PNG)
+--- ![Text_to_Column_Step_3](Other_Screenshots/Text_to_Column_Step_3.PNG)
 
-Next, the Year column is created by extracting the year information from the "Date Created Conversion" column using a formula.
-![Extract_Years](Other_Screenshots/Extract_Years.PNG)
+--- After that, the Date_Created_Conversion and Date_Ended_Conversion are created by converting the "launched_at" and "deadline" column using a formula shown below.
+--- ![Date_Created_Conversion](Other_Screenshots/Date_Created_Conversion.PNG)
+--- ![Date_Ended_Conversion](Other_Screenshots/Date_Ended_Conversion.PNG)
 
-The pivot table is inserted using the whole dataset, with the following fields, as shown below.
-![Pivot_Table_Launch_Date](Other_Screenshots/Pivot_Table_Launch_Date.PNG)
-![Pivot_Fields_Launch_Date](Other_Screenshots/Pivot_Fields_Launch_Date.PNG)
+--- Next, the Year column is created by extracting the year information from the "Date Created Conversion" column using a formula.
+--- ![Extract_Years](Other_Screenshots/Extract_Years.PNG)
 
-Lastly, With the filters on parent category being "theater", a line graph is inserted using the information from the pivot table, showing theater outcomes based on launch date.
-![Theater_Outcomes_vs_Launch](Resources/Theater_Outcomes_vs_Launch.png)
+--- The pivot table is inserted using the whole dataset, with the following fields, as shown below.
+--- ![Pivot_Table_Launch_Date](Other_Screenshots/Pivot_Table_Launch_Date.PNG)
+--- ![Pivot_Fields_Launch_Date](Other_Screenshots/Pivot_Fields_Launch_Date.PNG)
+
+--- Lastly, With the filters on parent category being "theater", a line graph is inserted using the information from the pivot table, showing theater outcomes based on launch date.
+--- ![Theater_Outcomes_vs_Launch](Resources/Theater_Outcomes_vs_Launch.png)
 
 
 ### Analysis of Outcomes Based on Goals
