@@ -17,7 +17,7 @@ There are a few steps to perform an analysis of outcomes based on launch date.
 First, the "Category and Subcategory" column is separated into 2 columns, the Parent Category and Subcategory columns are created by using the Text to Column function with 3 steps.
 
 Step 1:
-![Text_to_Column](Other_Screenshots/Text to Column.PNG)
+![Text_to_Column](Other_Screenshots/Text_to_Column.PNG)
 ![Text_to_Column_Step_1](Other_Screenshots/Text_to_Column_Step_1.PNG)
 ![Text_to_Column_Step_2](Other_Screenshots/Text_to_Column_Step_2.PNG)
 ![Text_to_Column_Step_3](Other_Screenshots/Text_to_Column_Step_3.PNG)
