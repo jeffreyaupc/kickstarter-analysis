@@ -16,24 +16,24 @@ There are a few steps to perform an analysis of outcomes based on launch date.
 
 First, the "Category and Subcategory" column is separated into 2 columns, the Parent Category and Subcategory columns are created by using the Text to Column function with 3 steps.
 Step 1:
-![Text_to_Column](Other_Screenshots\Text to Column.PNG)
-![Text_to_Column_Step_1](Other_Screenshots\Text_to_Column_Step_1.PNG)
-![Text_to_Column_Step_2](Other_Screenshots\Text_to_Column_Step_2.PNG)
-![Text_to_Column_Step_3](Other_Screenshots\Text_to_Column_Step_3.PNG)
+![Text_to_Column](Other_Screenshots/Text to Column.PNG)
+![Text_to_Column_Step_1](Other_Screenshots/Text_to_Column_Step_1.PNG)
+![Text_to_Column_Step_2](Other_Screenshots/Text_to_Column_Step_2.PNG)
+![Text_to_Column_Step_3](Other_Screenshots/Text_to_Column_Step_3.PNG)
 
 After that, the Date_Created_Conversion and Date_Ended_Conversion are created by converting the "launched_at" and "deadline" column using a formula shown below.
-![Date_Created_Conversion](Other_Screenshots\Date_Created_Conversion.PNG)
-![Date_Ended_Conversion](Other_Screenshots\Date_Ended_Conversion.PNG)
+![Date_Created_Conversion](Other_Screenshots/Date_Created_Conversion.PNG)
+![Date_Ended_Conversion](Other_Screenshots/Date_Ended_Conversion.PNG)
 
 Next, the Year column is created by extracting the year information from the "Date Created Conversion" column using a formula.
-![Extract_Years](Other_Screenshots\Extract_Years.PNG)
+![Extract_Years](Other_Screenshots/Extract_Years.PNG)
 
 The pivot table is inserted using the whole dataset, with the following fields, as shown below.
-![Pivot_Table_Launch_Date](Other_Screenshots\Pivot_Table_Launch_Date.PNG)
-![Pivot_Fields_Launch_Date](Other_Screenshots\Pivot_Fields_Launch_Date.PNG)
+![Pivot_Table_Launch_Date](Other_Screenshots/Pivot_Table_Launch_Date.PNG)
+![Pivot_Fields_Launch_Date](Other_Screenshots/Pivot_Fields_Launch_Date.PNG)
 
 Lastly, With the filters on parent category being "theater", a line graph is inserted using the information from the pivot table, showing theater outcomes based on launch date.
-![Theater_Outcomes_vs_Launch](Resources\Theater_Outcomes_vs_Launch.png)
+![Theater_Outcomes_vs_Launch](Resources/Theater_Outcomes_vs_Launch.png)
 
 
 ### Analysis of Outcomes Based on Goals
@@ -41,10 +41,10 @@ Lastly, With the filters on parent category being "theater", a line graph is ins
 To perform an analysis of outcomes based on goals, first, a table with rows of the range of goals from 0 to 50000, with columns being number of each outcome, total projects, as well as percentage of each outcome is created.
 The numbers of each outcomes are computed from the "Goal" column of the dataset and the COUNTIFS formula. The first criteria being the different range of goals, the second being "successful", "failed", and "canceled" from the "Outcome" column from the dataset, while the last being "plays" from the "Subcategory" column from the dataset.
 The number of "Total Projects" are calculated by using the SUM formula, adding the "successful", "failed", and "canceled" columns for each range of goal, while the perecentage of each cell is calculated by rounding the division of each outcome by the total to the nearest integer. The formats of the columns for percentage are also changed to "percentage".
-![Countifs_Goals](Other_Screenshots\Countifs_Goals.PNG)
+![Countifs_Goals](Other_Screenshots/Countifs_Goals.PNG)
 
 Using the table, a line graph is created using the "Goal" column and the 3 other columns of "percentage successful", "percentage failed" and "percentage canceled".
-![Outcomes_vs_Goals](Resources\Outcomes_vs_Goals.png)
+![Outcomes_vs_Goals](Resources/Outcomes_vs_Goals.png)
 
 
 ### Challenges and Difficulties Encountered
@@ -59,7 +59,7 @@ There were no specific challenges and difficulties encountered when performing t
 
 By looking at the line graph of Theater Outcomes by Launch Date, which combines data from all the years, two conclusions can be drawn. First, at any given month, there are more successful outcomes than failed outcomes. Second, over the years, there has been an upward trend of successful outcomes for the first 5 months, followed by a downward trend of successful outcomes for the next 7 months. However, there is no significant trend for the failed outcomes.
 
-![Theater_Outcomes_vs_Launch](Resources\Theater_Outcomes_vs_Launch.png)
+![Theater_Outcomes_vs_Launch](Resources/Theater_Outcomes_vs_Launch.png)
 
 ### Conclusions about the Outcomes based on Goals
 
@@ -67,7 +67,7 @@ By looking at the line graph of Theater Outcomes by Launch Date, which combines 
 
 By looking at the line graph of Outcomes Based on Goals, it is obvious that there is no canceled outcomes for any goal. Overall there is a downward trend where the higher amount the goal is, the less percentage of successful outcomes. On the other hand, there is an upward trend where the higher amount the goal is, the higher percentage of failed outcomes.
 
-![Outcomes_vs_Goals](Resources\Outcomes_vs_Goal.png)
+![Outcomes_vs_Goals](Resources/Outcomes_vs_Goal.png)
 
 ### Limitations of this dataset
 
@@ -84,15 +84,15 @@ Moreover, by switching the country filter in the "Outcome based on Goals" chart,
 There are two possible tables and graphs that we could create to better analyze the situation. 
 First, a "Backers on Plays" line graph demonstrates the actual number of backers over the years on the plays subcategory. It shows that there has been a spike in number of backers on plays between 2014 and 2016.
 
-![Backers_on_Plays](Other_Screenshots\Backers_on_Plays.png)
+![Backers_on_Plays](Other_Screenshots/Backers_on_Plays.png)
 
 Second, an "Average Donation on Plays" line graph can be created to demonstrate the average donation over the years on the plays subcategory as well. It shows that there has been a slight increase in average donation per year.
 
-![Average_Donation_on_Plays](Other_Screenshots\Average_Donation_on_Plays.PNG)
+![Average_Donation_on_Plays](Other_Screenshots/Average_Donation_on_Plays.PNG)
 
 Lastly, a "Count of Outcomes Based on Goal" line graph can be used to display the actual count of outcomes based on goal. It demonstrates clearly that the highest count of successful outcome comes from the goal that ranges between 1000 and 4999.
 This may be useful for setting goals for future fundraising campaign.
 
-![Count_of_Outcomes_Based_on_Goal](Other_Screenshots\Count_of_Outcomes_Based_on_Goal.PNG)
+![Count_of_Outcomes_Based_on_Goal](Other_Screenshots/Count_of_Outcomes_Based_on_Goal.PNG)
 
 These additional tables and graphs can be used better understand the big picture of the number of backers and average donation over the years in different subcategory, as well as the total count of outcomes based on goal.  
